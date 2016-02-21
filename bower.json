@@ -1,0 +1,30 @@
+{
+  "name": "Personal Portfolio Page",
+  "authors": [
+    "Ethan Faryna"
+  ],
+  "description": "A personal portfolio page",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "profile",
+    "web",
+    "design",
+    "Ethan",
+    "Faryna"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "fontawesome#^4.5.0"
+  }
+}
