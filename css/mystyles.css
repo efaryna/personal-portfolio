@@ -1,0 +1,47 @@
+/* Custom Free Code Camp Styles */
+
+.btn-freecodecamp {
+    color: #fff;
+    background-color: #492c14;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-freecodecamp:hover,
+.btn-freecodecamp:focus,
+.btn-freecodecamp:active,
+.btn-freecodecamp.active,
+.open .dropdown-toggle.btn-freecodecamp {
+    color: #fff;
+    background-color: #392312;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-freecodecamp:active,
+.btn-freecodecamp.active,
+.open .dropdown-toggle.btn-freecodecamp {
+    background-image: none
+}
+
+.btn-freecodecamp.disabled,
+.btn-freecodecamp[disabled],
+fieldset[disabled] .btn-freecodecamp,
+.btn-freecodecamp.disabled:hover,
+.btn-freecodecamp[disabled]:hover,
+fieldset[disabled] .btn-yahoo:hover,
+.btn-freecodecamp.disabled:focus,
+.btn-freecodecamp[disabled]:focus,
+fieldset[disabled] .btn-yahoo:focus,
+.btn-freecodecamp.disabled:active,
+.btn-freecodecamp[disabled]:active,
+fieldset[disabled] .btn-yahoo:active,
+.btn-freecodecamp.disabled.active,
+.btn-freecodecamp[disabled].active,
+fieldset[disabled] .btn-freecodecamp.actfreecodecampive {
+    background-color: #492c14;
+    border-color: rgba(0, 0, 0, 0.2)
+}
+
+.btn-freecodecamp .badge {
+    color: #492c14;
+    background-color: #fff
+}
