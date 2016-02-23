@@ -79,7 +79,7 @@
     </nav>
 
     <header class="jumbotron">
-        <div id="row-home" class="row">
+        <div id="row-home" class="row row-header">
             <div class="col-xs-12 col-sm-8 text-center">
                 <h1>Sinfonico Web Design</h1>
                 <h2>Website Orqestration</h2>
@@ -87,24 +87,30 @@
         </div>
     </header>
 
-    <div class="container">
-        <div id="about" class="row">
-            <h2>Sonfonico Web Design</h2>
-            <p>I'm a self taught web developer, just starting out. My goal is to learn JavaScript and develope web apps.</p>
-        </div>
-
-        <hr>
-
-        <div id="portfolio" class="row">
-            <h2>Portfolio</h2>
-            <p>Here are a few of my latest projects.</p>
-        </div>
-
-        <hr>
-
-        <div id="contact" class="row">
+    <div class="container-fluid">
+        <div id="about" class="row row-content">
             <div class="col-xs-12 col-sm-4">
+                <h2>Sonfonico Web Design</h2></div>
+            <div class="col-xs-12 col-sm-6">
+                <p>I'm a self taught web developer, just starting out. My goal is to learn JavaScript and develope web apps.</p>
+            </div>
+        </div>
+
+        <div id="portfolio" class="row row-content">
+            <div class="col-xs-12 col-sm-4">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <p>Here are a few of my latest projects.</p>
+            </div>
+        </div>
+
+        <div id="contact" class="row row-content">
+            <div class="col-xs-12 col-sm-4">
+                <h2>Contact</h2>
                 <h5>Find me one way or another</h5>
+            </div>
+            <div class="col-xs-12 col-sm-6">
                 <div class="nav navbar-nav">
                     <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/ethan-faryna-6abb8812" target="_blank">
                         <i class="fa fa-linkedin"></i><span class="sr-only">Linked In</span>
@@ -130,12 +136,11 @@
                 <h5>Located in San Juan, Puerto Rico</h5>
             </div>
         </div>
-        <hr>
     </div>
 
     <footer>
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row row-footer text-center">
                 <div class="col-xs-12 col-sm-6">
                     <ul class="list-unstyled list-inline">
                         <li><a href="#home">Home</a></li>
@@ -145,7 +150,7 @@
                     </ul>
                 </div>
                 <div class="col-xs-12">
-                    <p class="text-left">Copyright © Sinfonico Web Design 2016. All Rights Reserved</p>
+                    <p>Copyright © Sinfonico Web Design 2016. All Rights Reserved</p>
                 </div>
             </div>
         </div>
