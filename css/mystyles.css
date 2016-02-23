@@ -1,5 +1,8 @@
 /* Modifications to bootstrap classes */
-
+.img-responsive {
+    width: 30%;
+    display: inline-block;
+}
 /*End bootstrap classes*/
 
 body {
