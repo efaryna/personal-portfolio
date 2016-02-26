@@ -1,20 +1,17 @@
 /* Modifications to bootstrap classes */
-.img-responsive {
-    width: 30%;
-    display: inline-block;
-}
+
 /*End bootstrap classes*/
 
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
+    width: 100%;
 }
 
 .row-header,
 .row-content {
     padding: 70px 15px;
-    border-bottom: 1px ridge;
-    height: 100vh
+    min-height: 100vh;
 }
 
 .row-footer {
@@ -27,16 +24,29 @@ body {
     background-size: cover;
 }
 
-#home h1 {
+.row-header h1 {
     text-align: center;
     color: antiquewhite;
     font-family: fantasy;
     font-size: 6em;
 }
 
-#home h2 {
+.row-header h2 {
     text-align: left;
     color: deepskyblue;
+    font-family:serif;
+    font-size: 4em;
+
+}
+
+.row-content h1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 6em;
+}
+
+.row-content h2 {
+    text-align: left;
     font-family:serif;
     font-size: 4em;
 
@@ -45,13 +55,22 @@ body {
 #about {
     background: #FFFFFF url("../img/kroonland.jpg") center fixed;
     background-size: cover;
-    color:azure;
+    color:#12140a;
+}
+
+.profile-img {
+    max-height: 50vh;
+    border: 2px solid #e8e820;
+    padding:1px;
+
 }
 
 #portfolio {
     background: #ffc21e url("../img/Pineapple.JPG") center fixed;
     background-size: cover;
-    color: #a70a0a;
+    color: #efe4e4;
+    text-outline: 20px 20px #ff0000;
+
 }
 
 #contact {
@@ -61,10 +80,11 @@ body {
     color: cornflowerblue;
 }
 
-#profile-img {
-    max-height: 50vh;
-}
 
+#portfolio-row img{
+    width: 100%;
+    padding: 1em;
+}
 
 /* Custom Made Free Code Camp Styles */
 .btn-freecodecamp {
